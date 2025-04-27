@@ -3,6 +3,7 @@
 # nums — отсортированный по неубыванию список положительных целых чисел (1 ≤ len(nums) ≤ 10⁶),
 # target — целое число (1 ≤ target ≤ 10⁶).
 # Функция должна возвращать значение True, если число target является мажоритарным элементом списка nums, и False в противном случае.
+
 def is_majority_element(numbers: list[int], target: int) -> int:
     left, right = 0, len(numbers) - 1
     first_enter = last_enter = -1
